@@ -188,3 +188,8 @@
 // // define union is possible with type but not with interface
 
 // type unionOfStarndom = number | string;
+
+
+
+//  writing complex number
+
