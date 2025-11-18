@@ -62,3 +62,22 @@
 // }
 
 
+// function
+
+// function sum(a:number, b:number):number{
+// return a + b;
+// }
+
+// console.log(sum(5))
+
+// typescript does not run in runtime it first convert the code in js then run
+
+
+// Date object in typescript
+
+// let dob = new Date(2006,7,6)
+// console.log(dob)
+// console.log(dob.getDate())
+
+// any type object
+
