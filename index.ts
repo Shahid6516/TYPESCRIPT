@@ -79,5 +79,20 @@
 // console.log(dob)
 // console.log(dob.getDate())
 
-// any type object
+// any type object   -> free ticket to get rid of TS type checking
 
+// if you want to define a variable type any, then either mention ":any" while declaring the variable or do not assign a value while declaring a variable
+
+let x; // this variable x is of type  any
+x="10";
+x=10;
+
+
+function func():void{
+    // void means the return type of the function is not matter it can be anything like number, string etc
+
+
+    // if you don't return anything in function then it will return undefined
+     
+}
+console.log(func())
