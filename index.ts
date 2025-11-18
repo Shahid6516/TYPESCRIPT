@@ -128,3 +128,34 @@
 //     status:StatusCode.Success
 // }
 // console.log(responce)
+
+// Practice or Example
+
+/*
+* we want to define a common type for authentication forms
+* this common type will take multiple parameters
+*  - name of the form
+*  - how to handle submisson of form
+*  - how to handle reset of the form
+*  - what should be the text of the submitting button 
+*/
+
+interface AuthForm {
+    name: string,
+    submitButtonText: string,
+    onReset: (e: any) => void,
+    onSubmit: (e: any) => void
+}
+
+const loginForm: AuthForm = {
+  name:"Login Form",
+  submitButtonText:"Login",
+  onReset:(e)=>{
+    // some impl
+  },
+  onSubmit:(e)=>{
+    // some impl
+  }
+} 
+
+console.log(loginForm)
