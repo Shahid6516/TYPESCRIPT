@@ -193,3 +193,6 @@
 
 //  writing complex number
 
+let schoolName : "DPS" | "DAV" = "DPS";
+let anotherName = schoolName;
+console.log(anotherName)
