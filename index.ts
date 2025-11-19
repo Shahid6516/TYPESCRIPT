@@ -200,8 +200,8 @@
 // classes
 
 class Product {
-    name: string;
-    price: number;
+    public name: string;
+    private price: number;
 
     constructor(name: string, price: number) {
         this.name = name;
@@ -210,6 +210,10 @@ class Product {
 
     display(): void {
         console.log("Product name is ", this.name, "and the price is", this.price)
+    }
+    setPrice(p: number): void {
+        if (p <= 0) return;
+        this.price = p;
     }
 }
 
