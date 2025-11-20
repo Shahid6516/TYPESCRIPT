@@ -199,23 +199,63 @@
 
 // classes
 
-class Product {
-    public name: string;
-    private price: number;
+// class Product {
+//     public name: string;
+//     private price: number;
 
-    constructor(name: string, price: number) {
-        this.name = name;
-        this.price = price;
-    }
+//     constructor(name: string, price: number) {
+//         this.name = name;
+//         this.price = price;
+//     }
 
-    display(): void {
-        console.log("Product name is ", this.name, "and the price is", this.price)
-    }
-    setPrice(p: number): void {
-        if (p <= 0) return;
-        this.price = p;
-    }
-}
+//     display(): void {
+//         console.log("Product name is ", this.name, "and the price is", this.price)
+//     }
+//     setPrice(p: number): void {
+//         if (p <= 0) return;
+//         this.price = p;
+//     }
+// }
 
-const p1 = new Product("Iphone", 100000);
-console.log(p1)
+// const p1 = new Product("Iphone", 100000);
+// console.log(p1)
+
+
+// complex number
+
+/*
+  - what will be the data members?
+  - write two members functions
+   - add two complex numbers
+   - multiply two complex number
+*/
+
+
+// class complex {
+//     private real: number;
+//     private imag: number;
+
+//     constructor(real: number, imag: number) {
+//         this.real = real;
+//         this.imag = imag;
+//     }
+//     display(): void {
+//         console.log(`${this.real} + i${this.imag}`)
+//     }
+
+//     add(C: complex): void {
+//         this.real += C.real;
+//         this.imag += C.imag;
+//     }
+
+//     multiply(C: complex): void {
+//         this.real = (this.real * C.real - this.imag * C.imag);
+//         this.imag = (this.real * C.imag - this.imag * C.real);
+//     }
+
+
+// }
+
+
+
+
