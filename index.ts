@@ -257,7 +257,7 @@
 // }
 
 
-notes  ->    Genrics is a important topic in typescript
+// notes  ->    Genrics is a important topic in typescript
 
 
 
